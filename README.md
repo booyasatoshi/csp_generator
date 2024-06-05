@@ -6,6 +6,8 @@ This Python script is designed to generate a Content Security Policy (CSP) for a
 
 ## Features
 
+- Added multithreading in v 1.1 so it runs much faster
+- Fixed the malformed nonce creation for nonce policies
 - Fetches and scans the provided URL for JavaScript and CSS assets.
 - Computes SHA-256 hashes of the identified assets.
 - Generates a CSP policy with or without a nonce.
@@ -19,8 +21,14 @@ This Python script is designed to generate a Content Security Policy (CSP) for a
 - `beautifulsoup4` library
 - `tabulate` library
 
+## Installation and Running
+
 You can install the required libraries using pip:
 
 ```sh
-pip install requests beautifulsoup4 tabulate
+pip install -r requirements.txt
 
+Run the script with:
+
+```sh
+python3 main.py
