@@ -27,8 +27,10 @@ You can install the required libraries using pip:
 
 ```sh
 pip install -r requirements.txt
+```
 
 Run the script with:
 
 ```sh
 python3 main.py
+```
