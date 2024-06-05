@@ -23,9 +23,13 @@ This Python script is designed to generate a Content Security Policy (CSP) for a
 
 ## Installation and Running
 
-You can install the required libraries using pip:
+
+Clone the repo and install requirements:
 
 ```sh
+git clone https://github.com/booyasatoshi/csp_generator csp_generator
+python -m venv csp_generator
+cd csp_generator
 pip install -r requirements.txt
 ```
 
